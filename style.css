@@ -78,6 +78,22 @@ section{
   margin-right: auto;
 }
 
+ol{color: purple;
+  text-align:center;
+  font-family:'Indie Flower';
+  font-size: 14pt;
+}
+
+ul{color: purple;
+  text-align:center;
+  font-family:'Indie Flower';
+  font-size: 14pt;
+}
+
+
+
+}
+
 dl{color: purple;
   text-align:center;
   font-family:'Indie Flower';
