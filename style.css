@@ -68,21 +68,14 @@ p{font-family:'Indie Flower';
   text-align: center;
   font-size: 14pt;
 }
-
 section.ul{
-  color: purple;
-  text-align:center;
-  font-family:'Indie Flower';
-  font-size: 14pt;
-
+  text-align: center;
 }
 
-section.ol{
-  color: purple;
-  text-align:center;
-  font-family:'Indie Flower';
-  font-size: 14pt;
-  aligh: center;
+section{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 dl{color: purple;
