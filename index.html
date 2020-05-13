@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="javascript.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <header>
- <h1> &#127849; <i>Curriculum Vitae</i> &#127849; </h1>
+ <h1> &#127849; <i>Curriculum Vitae </i> &#127849; </h1>
 <h2> &#127803; Amanda Carneiro Lucas &#127803; </h2>
  <figure class="foto">
  <img src="https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/95917626_2947639011989548_2868942350187495424_n.jpg?_nc_cat=102&_nc_sid=110474&_nc_eui2=AeGyHOeGIIYmOIGBOgbFmQ_GWj3ZCG1yBA1aPdkIbXIEDaWCFJI8HyXSZF2iPD3Gd_zfDSuVOxRR-UxoWCTrJH4e&_nc_ohc=GdCQNk7wDBoAX8_vH55&_nc_ht=scontent.fbsb4-1.fna&oh=680aabf2f16b7c2d0d735608dfde96ff&oe=5ED6A64B" height=250; width=180;/>
@@ -81,7 +82,62 @@
 	<p><label>Música Favorita<label>
     <input type="text"></p>
 
-	<button type="submit">Salvar</button>
+<div class="wrapper">
+    <button class="button">Salvar</button>
+</div>
 </form>
+<section id="wrapper">
+  <h3> &#127796; Luagres que eu visitei &#127796;</32>
+   <div class="content">
+      <!-- Tab links -->
+      <div class="tabs">
+         <button class="tablinks active" data-country="Orlando"><p data-title="Orlando">Orlando</p></button>
+         <button class="tablinks" data-country="Miami"><p data-title="Miami">Miami</p></button>
+         <button class="tablinks" data-country="Nassau"><p data-title="Nassau">Nassau</p></button>
+         <button class="tablinks" data-country="CidadedoPanama"><p data-title="CidadedoPanama">Cidade do Panamá</p></button>
+      </div>
+
+      <!-- Tab content -->
+      <div class="wrapper_tabcontent">
+         <div id="Orlando" class="tabcontent active">
+            <h4>Orlando</h4>
+            <p>Orlando, uma cidade no centro da Flórida, abriga mais de uma dezena de parques temáticos. O mais conhecido é o Walt Disney World, composto por parques como o Magic Kingdom e o Epcot, além de parques aquáticos. Outra atração importante é o Universal Orlando, com o Universal Studios e o Islands of Adventure, sendo que o Wizarding World of Harry Potter abrange áreas dos dois.
+            </div>
+
+         <div id="Miami" class="tabcontent">
+            <h4>Miami</h4>
+            <p>Miami é uma cidade internacional no extremo sudeste da Flórida. Sua influência cubana se reflete nos cafés e lojas de charutos que ocupam a Calle Ocho, em Little Havana. Nas águas de cor azul-turquesa da Biscayne Bay ficam Miami Beach e South Beach, um bairro glamouroso conhecido por suas construções coloridas em art déco, areia branca, hotéis para surfistas e casas noturnas famosas.
+            </div>
+
+         <div id="Nassau" class="tabcontent">
+            <h4>Nassau</h4>
+            <p>Nassau é a capital das Bahamas. Ela fica na ilha de Nova Providência, com acesso à vizinha Ilha Paraíso pelas pontes do Porto de Nassau. Famosa parada para navios de cruzeiro, a cidade tem uma paisagem montanhosa e é conhecida pelas praias e pelos recifes de corais, ideais para a prática de mergulho e snorkel. O lugar preserva seus típicos prédios coloniais britânicos em cores pastel, como o Parlamento, em tons de rosa.
+            </div>
+
+          <div id="CidadedoPanama" class="tabcontent">
+             <h4>Ciade do Panamá</h4>
+             <p>A Cidade do Panamá, capital do Panamá, é uma cidade moderna cercada pelo Oceano Atlântico e pelo artificial canal do Panamá. Casco Viejo, o seu centro histórico calcetado, é célebre por pontos de referência da era colonial como o Palacio Presidencial neoclássico e plazas preenchidas com buganvílias e repletas de cafés e bares. As Comportas de Miraflores proporcionam vistas para os navios que atravessam o canal, uma rota de navegação fundamental que faz a ligação entre o Atlântico e o Pacífico.
+             </div>
+         </div>
+      </div>
+   </div>
+</section>
+<div id="progress"></div>
+
+<div class="center">
+  <div id="register">
+
+    <i id="previousButton" class="ion-android-arrow-back"></i>
+    <i id="forwardButton" class="ion-android-arrow-forward"></i>
+
+    <div id="inputContainer">
+      <input id="inputField" required multiple />
+      <label id="inputLabel"></label>
+      <div id="inputProgress"></div>
+    </div>
+
+  </div>
+</div>
+<script src="javascript.js"></script>
 </body>
 </html>
